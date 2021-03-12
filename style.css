@@ -1,0 +1,47 @@
+h1 {
+    color: aqua;
+}
+
+
+
+
+.Menu{
+    display: flex;
+    justify-content:space-between;
+    background-image: repeating-linear-gradient(cyan,pink,violet);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: unset;
+    color: black;
+    height: 50px;
+}
+body{
+    background-image:repeating-linear-gradient(rgb(255, 0, 191),blueviolet,violet,blue);
+}
+.bodyimg {
+    color:whitesmoke;
+    background-image:linear-gradient(pink,blue);
+    height: 200px;
+    font-size:large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.grid img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+
+.origami
+{
+    border-radius: 20px;
+    background-image:linear-gradient(purple,indigo,blue,green,yellow,orange,red);
+    width:310px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+    color:solid;
+}
